@@ -49,12 +49,18 @@ auf einem Simulator, oder einem Gerät im Developer - Modus installiert werden.
 
 ### Signing
 
-Um eine App in Umlauf bringen zu können, muss sie gesignt werden. Dazu sei auf [WebWorks TabletOS SDK][sdk] und [Signing][sign] verwiesen.
+Um eine App in Umlauf bringen zu können, muss sie gesignt werden. Dazu sei auf [Tutorials im SDK][sdk] und [ein Tutorial zum signing][sign] verwiesen.
 
 Linksammlung
 ------------
-+ [sdk]: [WebWorks TabletOS SDK](http://us.blackberry.com/developers/tablet/)
-+ [ref]: [WebWorks Reference](http://www.blackberry.com/developers/docs/webworks/api/)
-+ [sign]: [Signing](http://www.hsharma.com/tech/tutorials/10-easy-steps-to-package-and-sign-air-apps-for-playbook/)
-+ [Blackberry Github Account](https://github.com/blackberry)
-+ [Mobile Browser Compatibility Tables](http://www.quirksmode.org/mobile/)
+- [WebWorks TabletOS SDK][sdk]
+- [WebWorks Reference][ref]
+- [Signing][sign]
+- [Blackberry Github Account][gh]
+- [Mobile Browser Compatibility Tables][qm]
+
+[sdk]: http://us.blackberry.com/developers/tablet/
+[ref]: http://www.blackberry.com/developers/docs/webworks/api/
+[sign]: http://www.hsharma.com/tech/tutorials/10-easy-steps-to-package-and-sign-air-apps-for-playbook/
+[gh]: https://github.com/blackberry
+[qm]: http://www.quirksmode.org/mobile/
