@@ -1,5 +1,6 @@
 Unterlagen: Entwicklung für das BlackBerry PlayBook
 ===================================================
+![WebWorks Logo](http://www.blackberry.com/developers/docs/webworks/api/webworks.png)
 #### ... mit dem WebWorks SDK
 
 Hier sind die [Slides](http://prezi.com/-u5gcayb9ei2/entwickeln-fur-das-blackberry-playbook/).
