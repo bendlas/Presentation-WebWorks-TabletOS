@@ -43,12 +43,13 @@ File gepackt (ebenfalls im `.zip` Format). Dazu kommt ein
 `ActionScript` Launcher, der die Application gemäß der `config.xml`
 startet.
 
-Das Beispielprojekt kann mit einem einfachen `ant` call bis zu diesem Punkt gebracht werden. 
+Das Beispielprojekt kann mit einem einfachen `ant` call bis zu diesem Punkt gebracht werden
+(eventuell vorher properties in der build.xml anpassen).
 Die entstandene `.bar`, kann mittels
-`blackberry-depoy -installApp [-user <sim-user>] [-password <sim-password>] -device <simulator-ip> -package <bar-file>`
+`blackberry-deploy -installApp [-user <sim-user>] [-password <sim-password>] -device <simulator-ip> -package <bar-file>`
 auf einem Simulator, oder einem Gerät im Developer - Modus installiert werden.
 
-### Signing
+### Signing / BlackBerry AppWorld
 
 Um eine App in Umlauf bringen zu können, muss sie gesignt werden. Dazu sei auf [Tutorials im SDK][sdk] und [ein Tutorial zum signing][sign] verwiesen.
 
