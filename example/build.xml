@@ -1,0 +1,21 @@
+<project name="jsrepl" default="archive-bar">
+	<property name="webworks-sdk" location="C:\Programme\Research In Motion\BlackBerry WebWorks Packager for PlayBook\bbwp" />
+	<property name="tablet-sdk" location="${webworks-sdk}\blackberry-tablet-sdk" />
+	<property name="simulator-address" value="192.168.1.1" />
+	<property name="simulator-user" value="playbook" />
+	<property name="simulator-password" value="playbook" />
+			
+	<target name="archive-zip">
+		<mkdir dir="build" />
+		<zip destfile="build/${ant.project.name}.zip"
+			 basedir="src" />
+	</target>
+	<target name="archive-bar" depends="archive-zip">
+		<exec executable="${webworks-sdk}\bbwp.exe">
+			<arg file="build/${ant.project.name}.zip" />
+		</exec>
+	</target>
+	<target name="clean">
+		<delete dir="build" />
+	</target>
+</project>
